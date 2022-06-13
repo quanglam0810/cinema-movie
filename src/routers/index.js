@@ -1,7 +1,7 @@
 'use strick';
 const express = require('express');
 
-const quanLyPhimRouter = require('./quanLyPhim');
+//const quanLyPhimRouter = require('./quanLyPhim');
 
 //const quanLyNguoiDungRouter = require('./quanLyNguoiDung');
 
@@ -11,7 +11,7 @@ const quanLyRapRouter = require('./quanLyRap');
 
 const rootRouter = express.Router();
 
-rootRouter.use('/quanLyPhim', quanLyPhimRouter);
+//rootRouter.use('/quanLyPhim', quanLyPhimRouter);
 
 //rootRouter.use('/quanLyNguoiDung', quanLyNguoiDungRouter);
 
