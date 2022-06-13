@@ -5,7 +5,7 @@ const express = require('express');
 
 //const quanLyNguoiDungRouter = require('./quanLyNguoiDung');
 
-//const quanLyRapRouter = require('./quanLyRap');
+const quanLyRapRouter = require('./quanLyRap');
 
 //const quanLyDatVeRouter = require('./quanLyDatVe');
 
@@ -15,7 +15,7 @@ const rootRouter = express.Router();
 
 //rootRouter.use('/quanLyNguoiDung', quanLyNguoiDungRouter);
 
-//rootRouter.use('/quanLyRap', quanLyRapRouter);
+rootRouter.use('/quanLyRap', quanLyRapRouter);
 
 //rootRouter.use('/quanLyDatVe', quanLyDatVeRouter);
 
