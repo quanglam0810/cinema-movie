@@ -6,6 +6,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "express": "^4.17.3",
+    "faker": "^6.6.6",
     "git": "^0.1.5",
     "heroku": "^7.60.2",
     "jsonwebtoken": "^8.5.1",
